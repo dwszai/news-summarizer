@@ -1,0 +1,30 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.6.7
+  - pandas=1.1.5
+  - pip=20.3.3
+  - requests=2.25.1
+  - markdown=3.3.3
+  - waitress=1.4.4
+  - numpy=1.17.2 # so we get the mkl libs as well
+  - pip:
+    - beautifulsoup4==4.9.3
+    - bert-extractive-summarizer==0.6.1
+    - bert-score==0.3.7
+    - pytest==4.6.3
+    - pylint==2.3.1
+    - flask==1.1.1
+    - gunicorn==20.0.4
+    - torch==1.7.1
+    - transformers==4.2.1
+    - bert-score==0.3.7
+    - sumy==0.8.1
+    - protobuf==3.14.0
+    - sentencepiece==0.1.95
+    - regex==2020.11.13
+    - requests==2.25.0
+    - nltk==3.5
+    - newspaper3k==0.2.8
+    - pygments==2.7.4
+    - summarizer==0.0.7
